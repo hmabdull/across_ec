@@ -1,9 +1,9 @@
 html {
 	width: 100%;
 }
+
 body {
 	background-image:url(http://i49.tinypic.com/333wlk5.jpg); 
-		/*http://s12.postimg.org/p41iooa9p/background.jpg');*/ 
 		font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -13,19 +13,9 @@ footer {
 	width: 1000px; 
 }
 
-#log_in
-{
-	margin-top: -30px;
-	margin-right: 80px;
-	float: right;
-	font-size: 30px;
-	color: #098642;
-	width: 100px;
-	list-style: none;
 
-	
-}
-	
+
+	/* This will control the content inside the container in the homepage */ 
 #box {
 padding:-50px; 
 margin-left: 18%;
@@ -35,19 +25,23 @@ width: 800px;
 top: 150px;
 }
 
-
+/* logo*/
 #logo { 
 margin-left: -9%;
 margin-top: 2%;
 
 
 }
+
+
+
 .chee
 {
 	height:70px;
 	width:190px;
 }
 
+/* the grey background */ 
 #images
 {
 	padding: 5px;
@@ -59,11 +53,7 @@ margin-top: 2%;
 	border: none;
 	top: 160px;
 }
-#content
-	{
-    margin-top: -3%;
-		z-index:1;
-	}
+
 
 
 ul
@@ -87,7 +77,7 @@ a:active {color:grey;}  /* selected link */
 a::link {text-decoration: none}
 
 
-
+/* first coloum in homepage */
 .first_column{
 
 margin-top: 200px;
@@ -95,6 +85,7 @@ margin-left: 20px;
 
 }
 
+/* button left column in homepage */ 
 
 #first_column_down{
 margin-top: -29%;
@@ -103,7 +94,7 @@ width: 200px;
 font-size:12px
 }
 
-
+/* The following will deal with the top navigation from style to position */ 
 #top_nav {
 margin-top: 0.5%;
 margin-left: 5%;
@@ -160,7 +151,7 @@ ul#top_nav li a:active  {
            box-shadow: inset 0 2px 3px rgba(0,0,0, 0.2);
 }
 
-
+/* Education city image in the homepage */ 
 #mapimage
 {
 	height:300px;
@@ -170,6 +161,7 @@ ul#top_nav li a:active  {
 
 }
 
+/* the navigation in the footer / you can find it in application.html*/ 
 #second_nav{
 margin-top: 25%; 
 margin-left: 50%; 
@@ -197,18 +189,23 @@ h3
 	color:#098642;
 }
 
+
+/* the logo of QF and CMU in the footer */ 
 #logo_footer { 
 float: left;
 position: relative;
 margin-left: 15%;
 }
 
-	
+	/* second colomn is aligning content in some pages like login */ 
 	#second_column{
 margin-top: 18%;
 float: left; 
 }
 
+
+
+/* The login deal with log in boxes, in style and position*/ 
 
 .login label {
 
@@ -278,6 +275,7 @@ text-align: right;
 font-size:15px;
 }
 
+/* style for reseting password */ 
 #reset {
 
 margin-top: 150px;
@@ -285,7 +283,7 @@ float: left;
 margin-left: 14px;}
 
 
-
+/* controls the actions button style */ 
 #actions
 {
 	width:89px;
@@ -293,6 +291,8 @@ margin-left: 14px;}
 	font-size:14px;
 
 }
+
+/* login for registrar and students page*/ 
 #registrar_student
 {
 	float: right;
@@ -305,6 +305,10 @@ margin-right: -70px;
 	margin-right:30px;
 
 }
+
+
+/* Style for the flash error messages that appear once something go wrong */ 
+
 #flash_error
 {
 padding: 5px 8px;
@@ -325,27 +329,10 @@ position: absolute;
 	margin-top: -15px;
 }
 
-
-
 .confim_message{
 margin-top: -14px;
 
 }
-/*
-#container
-{
-	padding: 5px;
-	margin-left: 15.5%;
-	margin-right: 15.5%;
-	position: absolute;
-	z-index: -1;
-	opacity: 0.6;
-	border: none;
-	top: 180px;
-	width: 900px;
-	 height: 780px;
-}
-*/
 
 .std {
 	width:30px;
@@ -362,10 +349,9 @@ td
 	
 }
 
-.form_field {
 
-/*width: 40%;
-margin-left: 65px; */ 
+/* style for the forms in the different models */ 
+.form_field {
 margin-top: 80px;
 position:relative;
 left:64px;
@@ -382,6 +368,7 @@ font-size: 15px;
 
 }
 
+/* This control the size of the field area */ 
 .inside {
 
 
@@ -431,6 +418,8 @@ border-radius: 4px;
 	color: black;
 	font-size: 15px; 
 }
+
+/* In case of missing an information or wrong entry, the following style the message shown */ 
 #error_explanation {
 
 width: 311px;
@@ -439,6 +428,7 @@ margin-right: 10px;
 margin-top: 13px;
 }
 
+/* style the fields in case of errors */ 
 .field_with_errors { display: inline; 
 }
 
@@ -450,12 +440,6 @@ margin-top: 13px;
 	width:200px;
 	height:100px;
 }
-/*
-table, td, th
-{
-border:1px solid black;
-}
-*/
 
 
 table.gridtable {
@@ -481,10 +465,9 @@ table.gridtable td {
 	background-color: #ffffff;
 }
 
+/* style for student table as well as other tables */ 
 .student_table {
 
-/*width: 40%;
-margin-left: 65px; */ 
 margin-top: 80px;
 position:relative;
 left:65px;
@@ -501,6 +484,7 @@ font-size: 15px;
 
 }
 
+/* the white box that appear in the show page */ 
 
 .show_table {
 
@@ -592,6 +576,8 @@ background: rgba(0, 0, 0, 0.08);
 border-radius: 4px;
 }
 
+
+/* change the position of the back button */ 
 .back_b {
 
 	margin-right: 30px;
@@ -599,7 +585,7 @@ border-radius: 4px;
 	margin-top: -371px;
 }
 
-
+/* for the 2 login page, style the first and the second */ 
 #first_logS{
 
 margin-left: 13px;
@@ -610,6 +596,8 @@ margin-left: 13px;
 margin-left: 105px;
 }
 
+
+
 .sign_forg {
 
 margin-left: 70px;
@@ -618,7 +606,7 @@ font-size: 16px;
 float: left;
 }
 
-
+/* style the notification */ 
 #notifi {
 
 	margin-top: 90px;
